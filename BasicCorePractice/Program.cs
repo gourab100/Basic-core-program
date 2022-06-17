@@ -1,26 +1,20 @@
 ﻿
-Console.WriteLine("Flip Coin and print percentage of Heads and Tails");
 
-int n, h_cnt = 0, t_cnt = 0;
-double heads, tails;
-// INPUT DATA
-Console.WriteLine("enter no. of times you want to flip the coin: ");
-n = Convert.ToInt16(Console.ReadLine());
+Console.WriteLine("This program takes a command-line argument N and prints a table of the powers of 2 that are less than or equal to 2 ^ N.");
 
-// COMPUTATION
-for (int j = 0; j < n; j++)
+
+
+int n = Convert.ToInt16(Console.ReadLine());
+int i = 0;                // count from 0 to N
+int powerOfTwo = 1;       // the ith power of two
+
+// repeat until i equals n
+while (i <= n)
 {
-    Random r = new Random();
-    double random = r.Next(2);
-    if (random < 0.5)
-        t_cnt++;
-    else
-        h_cnt++;
+    Console.WriteLine("2 ^ " + i + " = " + powerOfTwo);   // print out the power of two
+    powerOfTwo = 2 * powerOfTwo;                // double to get the next one
+    i = i + 1;
 }
 
-heads = h_cnt / (double)n * 100;
-tails = t_cnt / (double)n * 100;
 
-Console.WriteLine("Percentage of heads: " + heads + "%");
-Console.WriteLine("Percentage of tails: " + tails + "%");
 
