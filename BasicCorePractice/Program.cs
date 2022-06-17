@@ -1,26 +1,29 @@
 ﻿
-Console.WriteLine("Flip Coin and print percentage of Heads and Tails");
+Console.WriteLine("Computes the prime factorization of N using brute force.");
 
-int n, h_cnt = 0, t_cnt = 0;
-double heads, tails;
-// INPUT DATA
-Console.WriteLine("enter no. of times you want to flip the coin: ");
-n = Convert.ToInt16(Console.ReadLine());
 
-// COMPUTATION
-for (int j = 0; j < n; j++)
+
+int n = Convert.ToInt32(Console.ReadLine());
+while (n % 2 == 0)
 {
-    Random r = new Random();
-    double random = r.Next(2);
-    if (random < 0.5)
-        t_cnt++;
-    else
-        h_cnt++;
+    Console.Write(2 + " ");
+    n /= 2;
 }
 
-heads = h_cnt / (double)n * 100;
-tails = t_cnt / (double)n * 100;
 
-Console.WriteLine("Percentage of heads: " + heads + "%");
-Console.WriteLine("Percentage of tails: " + tails + "%");
+for (int i = 3; i <= Math.Sqrt(n); i += 2)
+{
+    // While i divides n, print i and divide n
+    while (n % i == 0)
+    {
+        Console.Write(i + " ");
+        n /= i;
+    }
+}
+
+
+if (n > 2)
+{
+    Console.Write(n);
+}
 
