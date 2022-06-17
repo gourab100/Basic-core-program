@@ -1,26 +1,19 @@
 ﻿
-Console.WriteLine("Flip Coin and print percentage of Heads and Tails");
+ Console.WriteLine("Leap Year or not Ask me? ");
 
-int n, h_cnt = 0, t_cnt = 0;
-double heads, tails;
-// INPUT DATA
-Console.WriteLine("enter no. of times you want to flip the coin: ");
-n = Convert.ToInt16(Console.ReadLine());
 
-// COMPUTATION
-for (int j = 0; j < n; j++)
+Console.WriteLine("Enter Year : ");
+int Year = int.Parse(Console.ReadLine());
+if (((Year % 4 == 0) && (Year % 100 != 0)) || (Year % 400 == 0))
 {
-    Random r = new Random();
-    double random = r.Next(2);
-    if (random < 0.5)
-        t_cnt++;
-    else
-        h_cnt++;
+    Console.WriteLine("{0} is a Leap Year.", Year);
+}
+else
+{
+    Console.WriteLine("{0} is not a Leap Year.", Year);
+
+
 }
 
-heads = h_cnt / (double)n * 100;
-tails = t_cnt / (double)n * 100;
 
-Console.WriteLine("Percentage of heads: " + heads + "%");
-Console.WriteLine("Percentage of tails: " + tails + "%");
 
