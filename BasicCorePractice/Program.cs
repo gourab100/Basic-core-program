@@ -1,26 +1,26 @@
 ﻿
-Console.WriteLine("Flip Coin and print percentage of Heads and Tails");
+Console.WriteLine("Program to Find the Largest Among Three Numbers");
 
-int n, h_cnt = 0, t_cnt = 0;
-double heads, tails;
-// INPUT DATA
-Console.WriteLine("enter no. of times you want to flip the coin: ");
-n = Convert.ToInt16(Console.ReadLine());
+string result;
 
-// COMPUTATION
-for (int j = 0; j < n; j++)
+Console.Write("Input the first number :");
+int number1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input the second number :");
+int number2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input the third number :");
+int number3 = Convert.ToInt32(Console.ReadLine());
+
+if (number1 > number2 && number1 > number3)
 {
-    Random r = new Random();
-    double random = r.Next(2);
-    if (random < 0.5)
-        t_cnt++;
-    else
-        h_cnt++;
+    result = "The 1st Number is the greatest among three. \n";
+}
+else if (number2 > number1 && number2 > number3)
+{
+    result = "The 2nd Number is the greatest among three \n";
+}
+else
+{
+    result = "The 3rd Number is the greatest among three \n";
 }
 
-heads = h_cnt / (double)n * 100;
-tails = t_cnt / (double)n * 100;
-
-Console.WriteLine("Percentage of heads: " + heads + "%");
-Console.WriteLine("Percentage of tails: " + tails + "%");
-
+Console.WriteLine(result);
