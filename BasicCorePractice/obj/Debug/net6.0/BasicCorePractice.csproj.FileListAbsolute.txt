@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\bin\Debug\net6.0\BasicCorePractice.exe
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\bin\Debug\net6.0\BasicCorePractice.deps.json
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\bin\Debug\net6.0\BasicCorePractice.runtimeconfig.json
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\bin\Debug\net6.0\BasicCorePractice.dll
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\bin\Debug\net6.0\BasicCorePractice.pdb
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\obj\Debug\net6.0\BasicCorePractice.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\obj\Debug\net6.0\BasicCorePractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\obj\Debug\net6.0\BasicCorePractice.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\obj\Debug\net6.0\BasicCorePractice.AssemblyInfo.cs
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\obj\Debug\net6.0\BasicCorePractice.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\obj\Debug\net6.0\BasicCorePractice.dll
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\obj\Debug\net6.0\refint\BasicCorePractice.dll
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\obj\Debug\net6.0\BasicCorePractice.pdb
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\obj\Debug\net6.0\BasicCorePractice.genruntimeconfig.cache
+C:\Users\User\Desktop\bridgelabz solutions\BasicCorePractice\BasicCorePractice\obj\Debug\net6.0\ref\BasicCorePractice.dll
