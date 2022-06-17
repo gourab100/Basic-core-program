@@ -1,26 +1,23 @@
 ﻿
-Console.WriteLine("Flip Coin and print percentage of Heads and Tails");
+ Console.WriteLine("Prints the Nth harmonic number: 1/1 + 1/2 + ... + 1/N");
 
-int n, h_cnt = 0, t_cnt = 0;
-double heads, tails;
-// INPUT DATA
-Console.WriteLine("enter no. of times you want to flip the coin: ");
-n = Convert.ToInt16(Console.ReadLine());
+int i, n;
+double s = 0.0;
 
-// COMPUTATION
-for (int j = 0; j < n; j++)
+Console.Write("\n\n");
+Console.Write("Calculate the harmonic series and their sum:\n");
+Console.Write("----------------------------------------------");
+Console.Write("\n\n");
+
+Console.Write("Input the number of terms : ");
+n = Convert.ToInt32(Console.ReadLine());
+Console.Write("\n\n");
+if (n != 0)
 {
-    Random r = new Random();
-    double random = r.Next(2);
-    if (random < 0.5)
-        t_cnt++;
-    else
-        h_cnt++;
+    for (i = 1; i <= n; i++)
+    {
+        Console.Write("1/{0} + ", i);
+
+    }
+
 }
-
-heads = h_cnt / (double)n * 100;
-tails = t_cnt / (double)n * 100;
-
-Console.WriteLine("Percentage of heads: " + heads + "%");
-Console.WriteLine("Percentage of tails: " + tails + "%");
-
